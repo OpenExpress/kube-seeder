@@ -50,6 +50,7 @@
                         <goals>
                             <goal>unpack</goal>
                         </goals>
+
                         <configuration>
                             <artifactItems>
                                 <artifactItem>

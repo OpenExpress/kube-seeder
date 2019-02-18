@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM maven:3.6.0-jdk-8-alpine
 VOLUME /tmp
 ARG DEPENDENCY=target/dependency
 COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
